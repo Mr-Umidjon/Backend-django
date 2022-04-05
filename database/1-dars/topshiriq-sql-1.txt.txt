@@ -1,0 +1,15 @@
+1. city jadavalini yarating. unda (id, city, country, postcode) bo'lsin.
+2. books jadavalini yarating. unda (id, name, author, category, price) bo'lsin.
+
+1.1 city jadavaliga 10 element qoshing.
+1.2 city jadavalidan country = "country1" ga tegishli elementlarni to'plang.
+
+
+2.1 books jadavaliga 10 element qoshing.
+2.2 books jadavalidan author = "author1" ga tegishli elementlarni to'plang.
+
+
+3.user jadavalini yarating. unda (id, first_name, last_name, age) bo'lsin.
+3.1. user jadvalidan 25 yoshga teng bo'lgan userlarni hamma malumotini oling?
+3.2. user jadvalidan 25 yoshga teng bo'lgan userlarni first_name va age malumotlarini oling?
+3.3. user jadvalidan id = 3 bo'lgan userni first_name va last_name malumotlarini oling?
