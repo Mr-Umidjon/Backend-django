@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/mrumi/OneDrive/Ishchi stol/Backend-django/database/1-dars/1_dars_vazifa.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="1"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="125"/><column_width id="3" width="1435"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,4:mainuser"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="books" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="52"/><column index="2" value="175"/><column index="3" value="186"/><column index="4" value="85"/><column index="5" value="70"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="city" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="52"/><column index="2" value="105"/><column index="3" value="128"/><column index="4" value="89"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="user" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="52"/><column index="2" value="103"/><column index="3" value="181"/><column index="4" value="61"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">-- INSERT INTO city (city, country, postcode)
+-- VALUES('Tashkent', 'Uzbekistan', '99890');
+
+-- INSERT INTO city (city, country, postcode)
+-- VALUES('London', 'UK', '23545');
+
+-- INSERT INTO city(city, country, postcode)
+-- VALUES('Budapesht', 'Vengriya', 12345);
+
+-- INSERT INTO city (city, country, postcode)
+-- VALUES ('Sidney', 'Australiya', 67342);
+
+-- INSERT INTO city (city, country, postcode)
+-- VALUES ('Tokiyo', 'Yaponiya', 67489);
+
+-- INSERT INTO city (city, country, postcode)
+-- VALUES ('Berlin', 'Germaniya', 43871);
+
+-- INSERT INTO city(city, country, postcode)
+-- VALUES ('Rim', 'Italiya', 23875);
+
+-- INSERT INTO city(city, country, postcode)
+-- VALUES ('Astana', 'Kazakistan', 32878);
+
+-- INSERT INTO city(city, country, postcode)
+-- VALUES ('Moskva', 'Rassiya', 43892);
+
+-- SELECT * FROM city WHERE country = 'Uzbekistan';
+
+
+-- INSERT INTO books(name, author, category, price)
+-- VALUES
+-- 		('Dasturlash asoslari', 'Anvar Narzullayev', 'Ilmiy', 50000),
+-- 		('Handbook', 'I do not know', 'Ilmiy', 76000),
+-- 		('Harry Poter', 'John Smith', 'Badiiy', 645680),
+-- 		('Sariq devni minib', 'Otkir Hoshimov', 'Badiiy', 123000),
+-- 		('Xamsa', 'Alisher Navoiy', 'Badiiy', 4576300),
+-- 		('Islom tarixi', 'Shayx Muhammad Sodiq', 'Diniy', 90500),
+-- 		('Guliverning sayohatlari', 'Aka-uka grimlar', 'Badiiy', 329800),
+-- 		('Bonk', 'Nalaliya Bonk', 'Ilmiy', 25000),
+-- 		('Qashqirlar makoni', 'Otaturk', 'Toqima', 34870),
+-- 		('Mehrobdan Chayon', 'Otkir Hoshimov', 'Badiiy', 23000);
+
+-- SELECT * FROM books WHERE author='Anvar Narzullayev';
+
+-- INSERT INTO user (first_name, last_name, age)
+-- VALUES 
+-- 		('Umidbek', 'Maxammadsoliyev', 19),
+-- 		('Odlijon', 'Maxammadsoliyev', 17),
+-- 		('Muhammadziyo', 'Avazbekov', 5),
+-- 		('Abdulhadiy', 'Rahmonov', 24),
+-- 		('Asqar', 'Kattabekov', 34),
+-- 		('Nodir', 'Abdusattorov', 45),
+-- 		('Odil', 'Ahmedov', 35);
+
+-- SELECT * FROM user WHERE age = 25;
+-- SELECT first_name, last_name FROM user WHERE age = 25;
+SELECT first_name, last_name FROM user WHERE id = 3;</sql><current_tab id="0"/></tab_sql></sqlb_project>
