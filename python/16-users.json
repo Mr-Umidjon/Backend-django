@@ -18,5 +18,10 @@
         "name": "John",
         "played": 1,
         "best_score": 7
+    },
+    {
+        "name": "Umidbek",
+        "played": 1,
+        "best_score": 2
     }
 ]
