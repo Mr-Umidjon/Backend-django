@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Nodir",
+        "played": 5,
+        "best_score": 2
+    },
+    {
+        "name": "Akmal",
+        "played": 4,
+        "best_score": 4
+    },
+    {
+        "name": "Komiljon",
+        "played": 2,
+        "best_score": 6
+    },
+    {
+        "name": "John",
+        "played": 1,
+        "best_score": 7
+    }
+]

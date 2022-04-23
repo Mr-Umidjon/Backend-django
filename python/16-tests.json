@@ -1,0 +1,212 @@
+[
+    {
+        "question": "Python dasturlash tilining asoschisi kim?",
+        "answers": [
+            {
+                "key": "Guido van Rossum",
+                "isTrue": true
+            },
+            {
+                "key": "Monty Python",
+                "isTrue": false
+            },
+            {
+                "key": "Stefen Houking",
+                "isTrue": false
+            },
+            {
+                "key": "Pavel Durov",
+                "isTrue": false
+            }
+        ]
+    },
+    {
+        "question": "Quyidagilar qanday nomlanadi:\n\n\t+, 0, 'Integer'",
+        "answers": [
+            {
+                "key": "Integer, operator, string",
+                "isTrue": false
+            },
+            {
+                "key": "String, operator, integer",
+                "isTrue": false
+            },
+            {
+                "key": "Operator, string, integer",
+                "isTrue": false
+            },
+            {
+                "key": "Operator, integer, string",
+                "isTrue": true
+            }
+        ]
+    },
+    {
+        "question": "input() funksiyasi qanday turdagi qiymat qaytaradi?",
+        "answers": [
+            {
+                "key": "List",
+                "isTrue": false
+            },
+            {
+                "key": "String",
+                "isTrue": true
+            },
+            {
+                "key": "Integer",
+                "isTrue": false
+            },
+            {
+                "key": "Qiymat qaytarmaydi",
+                "isTrue": false
+            }
+        ]
+    },
+    {
+        "question": "Quyidagi \"figurali qavslar\" orqali qanday turdagi ma'lumotlar hosil qilish mumkin:\n\n\t{}",
+        "answers": [
+            {
+                "key": "Set",
+                "isTrue": false
+            },
+            {
+                "key": "Dict",
+                "isTrue": false
+            },
+            {
+                "key": "List",
+                "isTrue": false
+            },
+            {
+                "key": "Set yoki dict",
+                "isTrue": true
+            }
+        ]
+    },
+    {
+        "question": "for bu ...",
+        "answers": [
+            {
+                "key": "Qiymat qaytaruvchi funksiya",
+                "isTrue": false
+            },
+            {
+                "key": "Sikl",
+                "isTrue": true
+            },
+            {
+                "key": "Qiymat qaytarmaydigan funksiya",
+                "isTrue": false
+            },
+            {
+                "key": "Operator",
+                "isTrue": false
+            }
+        ]
+    },
+    {
+        "question": "Quyidagi kod qanday natija qaytaradi?\n\n\ta = 5\n\tb = 2\n\tc = a % b\n\tprint(c)",
+        "answers": [
+            {
+                "key": "1",
+                "isTrue": true
+            },
+            {
+                "key": "2",
+                "isTrue": false
+            },
+            {
+                "key": "10",
+                "isTrue": false
+            },
+            {
+                "key": "25",
+                "isTrue": false
+            }
+        ]
+    },
+    {
+        "question": "Quyidagi kod qanday natija qaytaradi?\n\n\ta = ['12', '21']\n\tb = '11' + a[1]\n\tprint(b)",
+        "answers": [
+            {
+                "key": "1112",
+                "isTrue": false
+            },
+            {
+                "key": "23",
+                "isTrue": false
+            },
+            {
+                "key": "1121",
+                "isTrue": true
+            },
+            {
+                "key": "32",
+                "isTrue": false
+            }
+        ]
+    },
+    {
+        "question": "Quyidagi kod qanday natija qaytaradi?\n\n\ta, b = 1, 2\n\tb = a\n\tx, y = b, a\n\tc = str(x) * y\n\tprint(c)",
+        "answers": [
+            {
+                "key": "1",
+                "isTrue": true
+            },
+            {
+                "key": "2",
+                "isTrue": false
+            },
+            {
+                "key": "11",
+                "isTrue": false
+            },
+            {
+                "key": "21",
+                "isTrue": false
+            }
+        ]
+    },
+    {
+        "question": "Quyidagi kod qanday natija qaytaradi?\n\n\ta = 2\n\tb = -2\n\twhile a >= 0:\n\t\tb = b ** a\n\t\ta -= 1\n\tprint(b)",
+        "answers": [
+            {
+                "key": "4",
+                "isTrue": false
+            },
+            {
+                "key": "-4",
+                "isTrue": false
+            },
+            {
+                "key": "-5",
+                "isTrue": false
+            },
+            {
+                "key": "1",
+                "isTrue": true
+            }
+        ]
+    },
+    {
+        "question": "Quyidagi kod qanday natija qaytaradi?\n\n\tprint(4 + 5 = 9)",
+        "answers": [
+            {
+                "key": "Kod xato",
+                "isTrue": true
+            },
+            {
+                "key": "1",
+                "isTrue": false
+            },
+            {
+                "key": "True",
+                "isTrue": false
+            },
+            {
+                "key": "18",
+                "isTrue": false
+            }
+        ]
+    }
+]
